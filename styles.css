@@ -1,0 +1,143 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* Dark background for contrast */
+  color: #fff;
+  
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+/* Alerts Section */
+.alerts {
+  background: #4a0000; /* Dark red for urgency */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.alerts h2 {
+  color: #ff6b6b; /* Bright red for alerts */
+
+}
+
+.alert-message {
+  padding: 10px;
+  background-color: #ffebee;
+  border-left: 4px solid #ff1744;
+  color: #d32f2f;
+  font-weight: bold;
+  border-radius: 4px;
+
+}
+
+/* Sensor Data Section */
+.sensor-data {
+  background: #2c3e50; /* Dark blue for contrast */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.sensor-data h2 {
+  color: #3498db; /* Bright blue for headings */
+
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+}
+
+.data-card {
+  background: #34495e; /* Darker blue for cards */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+
+}
+
+.data-card:hover {
+  transform: translateY(-5px);
+
+}
+
+.sensor-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+
+}
+
+.data-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #fff;
+
+}
+
+.data-card p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #ddd;
+
+}
+
+/* Map Section */
+.map {
+  background: #2c3e50; /* Dark blue for consistency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.map h2 {
+  color: #3498db; /* Bright blue for headings */
+
+}
+
+.map-container {
+  height: 400px;
+  background-color: #1e1e1e; /* Dark background for map */
+  border-radius: 8px;
+
+}
+
+/* Footer */
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+
+}
+
+header img {
+  width: 78vw;
+  height: 40vh;
+
+}
