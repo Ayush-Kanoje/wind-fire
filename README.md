@@ -1,2 +1,2 @@
 # wind-fire
-A system that help to detect fire  occurring in forests 
+A system that helps to detect fire  occurring in forests 
